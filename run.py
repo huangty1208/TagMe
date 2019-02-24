@@ -1,4 +1,4 @@
-### Copy right Ty Huang
+### Copyright Ty Huang
 ### None of this will work if you just cp my code
 ### models were deposited in another repositroy
 #!flask/bin/python
