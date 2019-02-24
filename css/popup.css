@@ -1,0 +1,29 @@
+body {
+	
+    text-align:center;
+	margin:auto;
+    background: linear-gradient(0deg, #6172ac, #2a4379);
+
+	
+}
+
+bottom {
+	
+	opacity: 0.2;
+	
+}
+
+button:hover {
+        outline: #80DEEA dotted thick;
+      }
+	  
+
+textarea {
+
+  width:100px;
+  height: auto;
+  background-color: #6172ac;
+  color: white ;
+
+}
+

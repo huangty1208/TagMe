@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "TagMe",
+  "description": "An extension to quickly suggest hashtags of selected text.",
+  "version": "1.0",
+  
+  "permissions": [
+    "http://127.0.0.1:5000/",
+	"http://www.tagme.icu:5000/"
+  ],
+  
+  "content_scripts": [
+    {
+      "matches":["<all_urls>"],
+      "js": [
+        "js/app/content.js"
+      ]
+    }
+  ],
+  "background": {
+    "scripts": [
+	"js/app/background.js",
+	"js/lib/jquery-3.3.1.js"
+	]
+
+  },
+  "browser_action": {
+    "default_icon": "assets/icons/512.png",
+    "default_popup": "popup.html",
+    "default_title": "TagMe"
+  },
+  
+  "icons": { 
+          "48": "assets/icons/YJ4.png",
+          "128": "assets/icons/512.png" 
+  }
+  
+  
+}
