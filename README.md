@@ -3,6 +3,6 @@ TagMe is a NLP powered chrome extension that allows social media users to auto-g
 
 
 
-![alt text](https://github.com/huangty1208/TagMe/gif12.gif "Demo")
+![alt text](https://github.com/huangty1208/TagMe/blob/master/gif12.gif)
 
 
